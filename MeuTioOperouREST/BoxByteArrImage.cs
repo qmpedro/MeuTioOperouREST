@@ -23,16 +23,14 @@ namespace MeuTioOperouREST
         private void BoxByteArrImage_Load(object sender, EventArgs e)
         {
             var imgBtArr = File.ReadAllBytes(ImagePath);
-
             string imgBase64 = Convert.ToBase64String(imgBtArr);
-
-            Clipboard.SetText(imgBase64);
-            //txtImageByteArray.Text = imgBase64;
+            txtImageByteArray.Text = imgBase64;
         }
 
         private void btnCopy_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(txtImageByteArray.Text);
+            MessageBox.Show("OK");
         }
     }
 }
