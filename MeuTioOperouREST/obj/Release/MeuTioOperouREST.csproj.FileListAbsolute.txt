@@ -1,0 +1,9 @@
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\bin\Release\MeuTioOperouREST.exe
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\bin\Release\MeuTioOperouREST.pdb
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\Release\MeuTioOperouREST.csprojResolveAssemblyReference.cache
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\Release\MeuTioOperouREST.Form1.resources
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\Release\MeuTioOperouREST.Properties.Resources.resources
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\Release\MeuTioOperouREST.csproj.GenerateResource.Cache
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\Release\MeuTioOperouREST.exe
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\Release\MeuTioOperouREST.pdb
+C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\Release\MeuTioOperouREST.BoxByteArrImage.resources
