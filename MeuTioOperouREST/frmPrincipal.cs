@@ -1,25 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
 
 namespace MeuTioOperouREST
 {
-    public partial class Form1 : Form
+    public partial class frmPrincipal : Form
     {
-        public Form1()
+        public frmPrincipal()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnGetGo_Click(object sender, EventArgs e)
@@ -46,7 +39,7 @@ namespace MeuTioOperouREST
             catch (Exception ex)
             {
                 txtResultJson.Text = ex.Message;
-            }            
+            }
         }
 
         private void GetResultMethodPost(string endpoint, string postData)
@@ -65,14 +58,13 @@ namespace MeuTioOperouREST
 
         private void btnPostFile_Click(object sender, EventArgs e)
         {
-            var dr = ofdImage.ShowDialog();
-            if (dr == System.Windows.Forms.DialogResult.OK)
+            if (ofdImage.ShowDialog() == DialogResult.OK)
             {
                 var box = new BoxByteArrImage(ofdImage.FileName);
                 box.ShowDialog();
             }
         }
 
-        
+
     }
 }
