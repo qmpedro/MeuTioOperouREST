@@ -9,3 +9,6 @@ C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\D
 C:\Users\pmanso\Desktop\MeuTioOperouREST\MeuTioOperouREST\MeuTioOperouREST\obj\Debug\MeuTioOperouREST.BoxByteArrImage.resources
 C:\Users\pmanso\Documents\GitHub\MeuTioOperouREST\MeuTioOperouREST\obj\Debug\MeuTioOperouREST.exe
 C:\Users\pmanso\Documents\GitHub\MeuTioOperouREST\MeuTioOperouREST\obj\Debug\MeuTioOperouREST.pdb
+E:\git\github\MeuTioOperouREST\MeuTioOperouREST\obj\Debug\MeuTioOperouREST.exe
+E:\git\github\MeuTioOperouREST\MeuTioOperouREST\obj\Debug\MeuTioOperouREST.pdb
+E:\git\github\MeuTioOperouREST\MeuTioOperouREST\bin\Debug\MeuTioOperouREST.exe.config
