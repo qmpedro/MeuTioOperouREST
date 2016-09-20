@@ -79,8 +79,8 @@
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabGet);
             this.tabControl1.Controls.Add(this.tabPost);
+            this.tabControl1.Controls.Add(this.tabGet);
             this.tabControl1.Location = new System.Drawing.Point(13, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -127,7 +127,7 @@
             // 
             // btnPostFile
             // 
-            this.btnPostFile.Location = new System.Drawing.Point(7, 185);
+            this.btnPostFile.Location = new System.Drawing.Point(6, 243);
             this.btnPostFile.Name = "btnPostFile";
             this.btnPostFile.Size = new System.Drawing.Size(95, 23);
             this.btnPostFile.TabIndex = 10;
@@ -150,20 +150,20 @@
             this.txtPostData.Multiline = true;
             this.txtPostData.Name = "txtPostData";
             this.txtPostData.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtPostData.Size = new System.Drawing.Size(823, 142);
+            this.txtPostData.Size = new System.Drawing.Size(823, 199);
             this.txtPostData.TabIndex = 6;
             this.txtPostData.Text = "{ Post Data }";
             // 
             // txtPostResult
             // 
             this.txtPostResult.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPostResult.Location = new System.Drawing.Point(6, 213);
+            this.txtPostResult.Location = new System.Drawing.Point(6, 272);
             this.txtPostResult.MaxLength = 1000000;
             this.txtPostResult.Multiline = true;
             this.txtPostResult.Name = "txtPostResult";
             this.txtPostResult.ReadOnly = true;
             this.txtPostResult.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtPostResult.Size = new System.Drawing.Size(824, 173);
+            this.txtPostResult.Size = new System.Drawing.Size(824, 114);
             this.txtPostResult.TabIndex = 7;
             // 
             // btnPostGo

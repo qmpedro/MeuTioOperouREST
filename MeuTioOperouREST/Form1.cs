@@ -37,28 +37,30 @@ namespace MeuTioOperouREST
 
         private void GetResultMethodGet(string endpoint)
         {
+            var result = new RestGateway();
             try
-            {
-                var result = new RestGateway();
+            {                
                 txtResultJson.Text = result.GetContent(endpoint);
-                lblContentType.Text = String.Concat("Content Type: ", result.ContentType);
+                lblContentType.Text = String.Concat("Content Type: ", result.ContentType, " | Status Code: ", result.StatusCode, " | Timestamp: ", DateTime.Now);
             }
             catch (Exception ex)
             {
+                lblContentType.Text = String.Concat("Status Code: ", result.StatusCode, " | Timestamp: ", DateTime.Now);
                 txtResultJson.Text = ex.Message;
-            }            
+            }
         }
 
         private void GetResultMethodPost(string endpoint, string postData)
         {
+            var result = new RestGateway();
             try
-            {
-                var result = new RestGateway();
+            {                
                 txtPostResult.Text = result.SetContent(endpoint, postData);
-                lblPostContentType.Text = String.Concat("Content Type: ", result.ContentType);
+                lblPostContentType.Text = String.Concat("Content Type: ", result.ContentType, " | Status Code: ", result.StatusCode, " | Timestamp: ", DateTime.Now);
             }
             catch (Exception ex)
             {
+                lblPostContentType.Text = String.Concat("Status Code: ", result.StatusCode, " | Timestamp: ", DateTime.Now);
                 txtPostResult.Text = ex.Message;
             }
         }
